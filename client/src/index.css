@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex&family=Encode+Sans+Expanded&display=swap');
+
+body{
+  background-color: #F8F8FF;
+  width: 100;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+
+}
+
+/**
+*   Navbar Page
+*/
+
+nav{
+  /* background-color: yellow; */
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.nav-logo{
+  width: 7rem;
+}
+
+.nav-right-side{
+display: flex;
+  align-items: center;
+  gap:  2rem;
+}
+
+.nav-right-side > button {
+  background-color: rgba(0,0,0,0);
+  border: none;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+/**
+*   Home Page
+*/
+
+.homepage-main-div{
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage-div{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.homepage-img {
+  width: 90%;
+}
+
+.homepage-green{
+  background-color: rgba(50,67,19,0.57);
+  width: 40%;
+  height: 38.5rem;
+  position: absolute;
+  right: 5%;
+  color: white;
+  font-family: 'Encode Sans Expanded', sans-serif;
+  letter-spacing: 1px;
+  padding: 1rem;
+}
+
+h3 > a {
+  color: white;
+  transition: all 0.3s ease-in;
+}
+
+h3 > a:hover {
+transition: all 0.3s ease-in;
+letter-spacing: 5px;
+}
+
+.homepage-family{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 5rem;
+}
+
+.homepage-family > img {
+  width: 30rem;
+}
+
+.home-fam-left{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    font-family: 'Caudex', serif;
+}
+
+.home-fam-left > h1 {
+  color: #3F5B0B;
+  letter-spacing: 1px;
+}
+
+.home-fam-left > button {
+  width: 10rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #3F5B0B;
+  border-radius: 10rem;
+  color: #3F5B0B;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.5s ease-in;
+}
+
+.home-fam-left > button:hover {
+  transition: all 0.5s ease-in;
+  background-color: #3F5B0B;
+  color: white;
+}
+
+.home-fam-left > p {
+  letter-spacing: 1px;
+}
