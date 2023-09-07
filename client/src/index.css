@@ -172,5 +172,22 @@ letter-spacing: 5px;
   cursor: pointer;
   width: 10rem;
   height: 10rem;
-  
+}
+
+/**
+*   Footer Page
+**/
+footer{
+  background-color: #3F5B0B;
+  color: white;
+  letter-spacing: 2px;
+  font-family: 'Encode Sans Expanded', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+footer img {
+  width: 10rem;
+  padding: 1rem;
 }
