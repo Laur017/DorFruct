@@ -1,6 +1,6 @@
 import MainImage from './HomePageImg.png'
 import Ion from './ion.png'
-
+import HomeProducts from '../HomeProducts/HomeProducts'
 
 export default function HomePage() {
   return (
@@ -25,6 +25,7 @@ export default function HomePage() {
             </div>
             <img src={Ion} />
         </div>
+        <HomeProducts />
     </div>
   )
 }
